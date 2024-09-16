@@ -33,7 +33,7 @@ const Results = ({
           {/* money value */}
           <h1 className="mt-4 flex items-center font-bold text-3xl text-[#d9db30]">
             <PoundSterling strokeWidth={3} className=" h-7 w-7" />
-            {monthlySum}
+            {monthlySum.toLocaleString()}
           </h1>
           <Separator className="my-4 rounded-full bg-slate-600" />
           {/* over the term section */}
@@ -43,7 +43,7 @@ const Results = ({
           {/* money value */}
           <h2 className="mt-2 flex items-center font-bold text-xl">
             <PoundSterling strokeWidth={3} className="h-5 w-5" />
-            {yearlySum}
+            {yearlySum.toLocaleString()}
           </h2>
         </div>
       </div>
