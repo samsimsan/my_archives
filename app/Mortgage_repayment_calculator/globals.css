@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -58,10 +62,7 @@
     --chart-5: 340 75% 55%;
   }
 }
-body {
-  height: 100vh;
-  font-family: "Source Sans 3", sans-serif;
-}
+
 
 @layer utilities {
   .text-balance {
@@ -70,32 +71,9 @@ body {
 }
 
 
-.mainheading {
-  font-family: "Merriweather", serif;
+body {
+    @apply sm:bg-[#e3f4fc] bg-red-900 flex justify-center items-center;
+    height: 100vh;
+    /* font-family: "Plus_Jakarta_Sans", sans-serif; */
 }
 
-.testingheader {
-  font-family: "Source Sans 3", sans-serif;
-}
-
-
-
-/* For WebKit-based browsers (Chrome, Safari, Edge) */
-::-webkit-scrollbar {
-  width: 8px;
-  /* Adjust the width as needed */
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-  /* Make the scrollbar track transparent */
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.5);
-  /* 50% transparent black thumb */
-  border-radius: 6px;
-  /* Optional: add rounded corners */
-  border: 3px solid transparent;
-  /* Transparent border to maintain thumb size */
-}
