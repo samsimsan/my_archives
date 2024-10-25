@@ -1,23 +1,14 @@
-"use client";
 
-import { Separator } from '@/components/ui/separator';
+
 import { Flag, Search } from 'lucide-react';
 import ProfileMenu from './_components/profileMenu';
-import { DropdownMenuDemo } from './_components/test';
 import { Button } from '@/components/ui/button';
-import Test_box from './_components/test_box';
-import { useState } from 'react';
+import Card from './_components/card';
+import AddCards from './_components/addcards';
 
 
 
 const page = () => {
-    
-    // const box_holder = [1]
-    const [box_holder, setBox_holder] = useState([1]);
-
-    // const add_more_box = (num: number) => {
-    //     let last_index  
-    // }
     
     return (
         // this div acts as body
@@ -42,12 +33,11 @@ const page = () => {
                     </Button>
                 </div>
             </nav>
-            <div className='flex flex-wrap p-32 w-full'>
-                {/* box creator challenge */}
-                {box_holder.map((box) => {
-                    return <Test_box key={box} add_box={setBox_holder} num={box}/>
-                })}              
-            </div>
+            {/* container for the cards */}
+            <section className='flex items-center gap-2 mx-40 my-20'>
+                <Card /> 
+                <AddCards />
+            </section>
         </div>
     )
 }
