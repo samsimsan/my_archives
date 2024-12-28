@@ -21,6 +21,11 @@ export default function Home() {
             href="/Mortgage_repayment_calculator">
             Mortgage repayment calculator
           </Link>
+          <Link
+            className="hover:text-sky-800 transition ease-in-out duration-150 underline hover:underline-offset-4 underline-offset-3 uder tracking-wide text-xl"
+            href="/commentsSection">
+            Comments Section
+          </Link>
           
         </div>
       </main>

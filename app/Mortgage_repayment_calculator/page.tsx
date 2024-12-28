@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Form from "./components/formComp"
-import Results from "./components/results"
+import Form from "./_components/formComp"
+import Results from "./_components/results"
 
 
 
