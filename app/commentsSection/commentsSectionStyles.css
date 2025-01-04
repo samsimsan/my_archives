@@ -58,49 +58,7 @@
     --chart-5: 340 75% 55%;
   }
 }
+
 body {
-  height: 100vh;
-  font-family: "Source Sans 3", sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
-
-
-.mainheading {
-  font-family: "Merriweather", serif;
-}
-
-.testingheader {
-  font-family: "Source Sans 3", sans-serif;
-}
-
-/* For WebKit-based browsers (Chrome, Safari, Edge) */
-
-/* General vertical scrollbar styles */
-::-webkit-scrollbar {
-  width: 5px; /* Vertical scrollbar width */
-  height: 5px; /* Horizontal scrollbar height */
-}
-
-::-webkit-scrollbar-track {
-  background: transparent; /* Make the scrollbar track transparent */
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.5); /* 50% transparent black thumb */
-  border-radius: 6px; /* Rounded corners */
-  border: 3px solid transparent; /* Transparent border to maintain thumb size */
-}
-
-/* Specifically target the horizontal scrollbar */
-html::-webkit-scrollbar {
-  height: 3px; /* Horizontal scrollbar height */
-}
-
-html::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.4); /* Slightly lighter thumb for horizontal */
+    @apply bg-slate-100;
 }

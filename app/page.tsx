@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 
@@ -25,6 +24,11 @@ export default function Home() {
             className="hover:text-sky-800 transition ease-in-out duration-150 underline hover:underline-offset-4 underline-offset-3 uder tracking-wide text-xl"
             href="/commentsSection">
             Comments Section
+          </Link>
+          <Link
+            className="hover:text-sky-800 transition ease-in-out duration-150 underline hover:underline-offset-4 underline-offset-3 uder tracking-wide text-xl"
+            href="/ContactForm">
+            Contact Form
           </Link>
           
         </div>

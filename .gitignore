@@ -36,6 +36,4 @@ yarn-error.log*
 next-env.d.ts
 
 /app/zodForForm
-/app/contact_form
 /app/tester
-/app/commentsSection

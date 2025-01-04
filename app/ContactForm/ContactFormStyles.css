@@ -58,49 +58,15 @@
     --chart-5: 340 75% 55%;
   }
 }
-body {
-  height: 100vh;
-  font-family: "Source Sans 3", sans-serif;
+
+/* body {
+  @apply bg-slate-100;
+} */
+
+.formInput {
+  @apply focus-visible:outline-none focus-visible:border-gray-900 font-light text-base bg-transparent border-0 border-b border-gray-400 rounded-none py-6;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
-
-
-.mainheading {
-  font-family: "Merriweather", serif;
-}
-
-.testingheader {
-  font-family: "Source Sans 3", sans-serif;
-}
-
-/* For WebKit-based browsers (Chrome, Safari, Edge) */
-
-/* General vertical scrollbar styles */
-::-webkit-scrollbar {
-  width: 5px; /* Vertical scrollbar width */
-  height: 5px; /* Horizontal scrollbar height */
-}
-
-::-webkit-scrollbar-track {
-  background: transparent; /* Make the scrollbar track transparent */
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.5); /* 50% transparent black thumb */
-  border-radius: 6px; /* Rounded corners */
-  border: 3px solid transparent; /* Transparent border to maintain thumb size */
-}
-
-/* Specifically target the horizontal scrollbar */
-html::-webkit-scrollbar {
-  height: 3px; /* Horizontal scrollbar height */
-}
-
-html::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.4); /* Slightly lighter thumb for horizontal */
+.formlabel {
+  @apply font-normal text-lg;
 }
