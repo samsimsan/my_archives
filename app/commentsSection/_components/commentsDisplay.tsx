@@ -3,7 +3,7 @@ import DisplayAllComments from './displayAllComments';
 
 const CommentsDisplay = () => {
     return (
-        <section>
+        <section className=''>
             <CreateComment />
             <DisplayAllComments />
         </section>

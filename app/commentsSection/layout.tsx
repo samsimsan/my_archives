@@ -3,6 +3,7 @@ import "../commentsSection/commentsSectionStyles.css";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import Header from "./_components/header";
+import Footer from "./_components/footer";
 
 const roboto = Roboto({ subsets: ["latin"], weight: ["400", "500", "700", "900"] });
 
@@ -21,6 +22,7 @@ const CommentSectionLayout = ({
             <body className={roboto.className}>
                 <Header />
                 {children}
+                <Footer />
             </body>
         </html>
     )

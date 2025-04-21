@@ -59,6 +59,24 @@
     }
 }
 
+
+:root {
+    --background-color: #F8F3D9;
+}
+
 body {
-    @apply bg-slate-100;
+    background-color: var(--background-color);
+}
+
+.box {
+    @apply rounded-md
+}
+
+
+h1 {
+    @apply font-medium text-5xl leading-[0.9];
+}
+
+h2 {
+    @apply font-medium text-3xl tracking-tight leading-[0.9];
 }

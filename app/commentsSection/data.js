@@ -7,7 +7,7 @@ export const data = {
         "username": "juliusomo"
     },
     "comments": {
-        "totalComments": 4,
+        "totalComments": 8,
         "comments": [
             {
                 "id": 1,
@@ -62,6 +62,63 @@ export const data = {
                                 "webp": "./commentSection/images/avatars/image-juliusomo.webp"
                             },
                             "username": "juliusomo"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "content": "Great work! The animations are smooth, and the UI is clean. Did you use any libraries for the animations?",
+                "createdAt": "5 days ago",
+                "score": 9,
+                "user": {
+                    "image": {
+                        "png": "./commentSection/images/avatars/image-juliusomo.png",
+                        "webp": "./commentSection/images/avatars/image-juliusomo.webp"
+                    },
+                    "username": "juliusomo"
+                },
+                "replies": []
+            },
+            {
+                "id": 6,
+                "content": "I love the typography choices! The font pairing works really well. Where did you get your inspiration from?",
+                "createdAt": "4 days ago",
+                "score": 7,
+                "user": {
+                    "image": {
+                        "png": "./commentSection/images/avatars/image-amyrobson.png",
+                        "webp": "./commentSection/images/avatars/image-amyrobson.webp"
+                    },
+                    "username": "amyrobson"
+                },
+                "replies": []
+            },
+            {
+                "id": 7,
+                "content": "Your use of flexbox and grid is impressive! Everything aligns so well, and it's super responsive.",
+                "createdAt": "3 days ago",
+                "score": 8,
+                "user": {
+                    "image": {
+                        "png": "./commentSection/images/avatars/image-ramsesmiron.png",
+                        "webp": "./commentSection/images/avatars/image-ramsesmiron.webp"
+                    },
+                    "username": "ramsesmiron"
+                },
+                "replies": [
+                    {
+                        "id": 8,
+                        "content": "I completely agree! The layout is spot on.",
+                        "createdAt": "2 days ago",
+                        "score": 6,
+                        "replyingTo": "ramsesmiron",
+                        "user": {
+                            "image": {
+                                "png": "./commentSection/images/avatars/image-maxblagun.png",
+                                "webp": "./commentSection/images/avatars/image-maxblagun.webp"
+                            },
+                            "username": "maxblagun"
                         }
                     }
                 ]

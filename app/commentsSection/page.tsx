@@ -14,7 +14,7 @@ const CommentSectionPage = () => {
 
 
   return (
-    <main className='mx-auto sm:w-1/2 max-sm:mx-4 mt-8'>
+    <main className='mt-24 mx-8 md:mx-auto md:w-1/2 max-sm:mx-4  mb-8'>
       <AllDataContext.Provider value={{ AllComments, setAllComments, currentUser, setCurrentUser }}>
         <TopComponent />
         <CommentsDisplay />

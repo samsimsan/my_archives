@@ -24,13 +24,13 @@ const TopComponent = () => {
                 <p className=' text-gray-400/70 font-medium'>comments</p>
             </div>
             <div>
-                <Button onClick={handleSignout} variant="outline" className='bg-transparent hover:bg-white/50 active:bg-gray-300 sm:text-lg sm:px-10 sm:py-6 border-2 border-gray-300 text-gray-700 font-semibold'>Sign Out</Button>
+                <Button onClick={handleSignout} variant="outline" className='bg-transparent hover:bg-gray-100/50 active:bg-gray-300 sm:text-lg sm:px-10 sm:py-6 border-2 border-gray-300 text-gray-700 font-semibold'>Sign Out</Button>
                 <p className={`${signOutClicked ? "text-gray-400" : "text-transparent"} text-xs mt-2 transition duration-150 `}>
                     This is just placeholder!
                 </p>
             </div>
         </section>
-        <Separator className='my-4 bg-gray-200 h-[2px] rounded-md' />
+        <Separator className='my-4 bg-gray-300 rounded-md' />
     </>
     )
 }
